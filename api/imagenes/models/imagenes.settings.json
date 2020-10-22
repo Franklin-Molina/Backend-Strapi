@@ -21,8 +21,8 @@
       "required": true
     },
     "tags": {
-      "collection": "tags",
-      "via": "imagenes"
+      "via": "imagenes",
+      "collection": "tags"
     },
     "user": {
       "plugin": "users-permissions",

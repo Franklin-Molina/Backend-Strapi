@@ -8,10 +8,10 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
-    "url": {
+    "imagen": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -21,8 +21,8 @@
       "required": true
     },
     "tags": {
-      "via": "imagenes",
-      "collection": "tags"
+      "collection": "tags",
+      "via": "imagenes"
     },
     "user": {
       "plugin": "users-permissions",
